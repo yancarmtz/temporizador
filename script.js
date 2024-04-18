@@ -227,7 +227,7 @@ function iniciarPausar() {
    // alert('1.entra funcion iniciarPausar');
     if(idIntervalo) {
         audiopause.play();
-        alert('idIntervalo: ' + idIntervalo);
+     //   alert('idIntervalo: ' + idIntervalo);
         reiniciar();
         return;
     }
